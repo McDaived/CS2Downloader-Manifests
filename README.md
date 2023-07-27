@@ -4,9 +4,8 @@ Using the following method you can download Counter-Strike 2 game files from off
 1. Manifest zip files shared by me will contain 5 files, these are.
    - 2347770 - Counter-Strike 2 Game Files
     - 2347771 - Counter-Strike 2 Windows Binaries
-     - 2347774 - Counter-Strike 2 VPK Files
-      - 2347779 - Counter-Strike 2 Workshop Tools
-       - depot_keys.json - Used to decrypt chunks downloaded
+     - 2347779 - Counter-Strike 2 Workshop Tools
+      - depot_keys.json - Used to decrypt chunks downloaded
 
 
 # ![](https://img.icons8.com/?size=60&id=DWiebo2M1Bbt&format=svg) How it work :
