@@ -64,3 +64,4 @@ Well in that case you have to find someone who has access to Beta and ask them t
 For obtaining manifest file using steamctl run following command
 
 ``steamctl -l debug depot info -a <appid> -d <depotid> -m <manifestid>``
+
