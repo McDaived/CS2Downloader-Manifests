@@ -55,7 +55,7 @@ Ideally use this command where you have the "game" folder for example
 
 ``PS C:\> cd "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive"``
 
-``PS C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive> steamctl depot diff -f C:\manifests\730_2347770_420087000680427403``
+``PS C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive> steamctl depot diff -f C:\manifests\730_2347770_1443647764418024756``
 
 ## want to update game every new update?
 
