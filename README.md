@@ -22,9 +22,9 @@ Download latest manifest zip and extract it. Copy depot_keys.json to %LocalAppDa
 Now open command prompt or powershell and cd to the directory where you extracted manifest zip. Run following commands one by one to download all 3 game depots
 
 
-``steamctl depot download -f .\730_2347770_445733109679172469 -o ./depots --skip-licenses --skip-login``
+``steamctl depot download -f .\730_2347770_3690052671130808636 -o ./depots --skip-licenses --skip-login``
 
-``steamctl depot download -f .\730_2347771_1324572503769558449 -o ./depots --skip-licenses --skip-login``
+``steamctl depot download -f .\730_2347771_4889155768775697476 -o ./depots --skip-licenses --skip-login``
 
 ``steamctl depot download -f .\730_2347774_1188991662674584852 -o ./depots --skip-licenses --skip-login``
 
@@ -36,26 +36,26 @@ This would download game files in folder named depots. In order to play the game
 
 From the same command prompt execute following command to download Counter-Strike 2 Workshop Tools
 
-``steamctl depot download -f .\730_2347779_2063331393559697906 -o ./depots --skip-licenses --skip-login``
+``steamctl depot download -f .\730_2347779_7596856531718953140 -o ./depots --skip-licenses --skip-login``
 
 ##
 **Verify Game File Integrity**
 
 You can verify game file integrity using following commands check if something is missing or corrupted. I don't think we can selectively download corrupted files using steamctl, you can look at the documentation and report if I missed it.
 
-``steamctl depot diff -f .\manifests\730_2347770_445733109679172469``
+``steamctl depot diff -f .\manifests\730_2347770_3690052671130808636``
 
-``steamctl depot diff -f .\manifests\730_2347771_1324572503769558449``
+``steamctl depot diff -f .\manifests\730_2347771_4889155768775697476``
 
 ``steamctl depot diff -f .\manifests\730_2347774_1188991662674584852``
 
-``steamctl depot diff -f .\manifests\730_2347779_2063331393559697906``
+``steamctl depot diff -f .\manifests\730_2347779_7596856531718953140``
 
 Ideally use this command where you have the "game" folder for example
 
 ``PS C:\> cd "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive"``
 
-``PS C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive> steamctl depot diff -f C:\manifests\730_2347770_445733109679172469``
+``PS C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive> steamctl depot diff -f C:\manifests\730_2347770_3690052671130808636``
 
 ## want to update game every new update?
 
