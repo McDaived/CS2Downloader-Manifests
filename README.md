@@ -22,9 +22,9 @@ Download latest manifest zip and extract it. Copy depot_keys.json to %LocalAppDa
 Now open command prompt or powershell and cd to the directory where you extracted manifest zip. Run following commands one by one to download all 3 game depots
 
 
-``steamctl depot download -f .\730_2347770_7172337300909817978 -o ./depots --skip-licenses --skip-login``
+``steamctl depot download -f .\730_2347770_7006352739150617787 -o ./depots --skip-licenses --skip-login``
 
-``steamctl depot download -f .\730_2347771_7024677568113360359 -o ./depots --skip-licenses --skip-login``
+``steamctl depot download -f .\730_2347771_40025667126184286 -o ./depots --skip-licenses --skip-login``
 
 ``steamctl depot download -f .\730_2347774_4569302761516710917 -o ./depots --skip-licenses --skip-login``
 
@@ -43,19 +43,19 @@ From the same command prompt execute following command to download Counter-Strik
 
 You can verify game file integrity using following commands check if something is missing or corrupted. I don't think we can selectively download corrupted files using steamctl, you can look at the documentation and report if I missed it.
 
-``steamctl depot diff -f .\manifests\730_2347770_7172337300909817978``
+``steamctl depot diff -f .\manifests\730_2347770_7006352739150617787``
 
-``steamctl depot diff -f .\manifests\730_2347771_7024677568113360359``
+``steamctl depot diff -f .\manifests\730_2347771_40025667126184286``
 
 ``steamctl depot diff -f .\manifests\730_2347774_4569302761516710917``
 
-``steamctl depot diff -f .\manifests\730_2347779_1705652875278203133``
+``steamctl depot diff -f .\manifests\730_2347779_22674383808428716``
 
 Ideally use this command where you have the "game" folder for example
 
 ``PS C:\> cd "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive"``
 
-``PS C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive> steamctl depot diff -f C:\manifests\730_2347770_7172337300909817978``
+``PS C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive> steamctl depot diff -f C:\manifests\730_2347770_7006352739150617787``
 
 ## want to update game every new update?
 
